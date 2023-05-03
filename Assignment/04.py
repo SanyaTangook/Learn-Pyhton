@@ -1,6 +1,3 @@
-import time
-
-
 x = input()
 arr = []
 for i in range(len(x)):
@@ -15,6 +12,5 @@ if (arr[-1] < 0):
     arr[-1] = abs(arr[-1])
 elif (arr[-1] == 0):
     arr.remove(0)
-s=time.time()
-print((time.time()-s))
+
 print(int(''.join(map(str, arr))))
