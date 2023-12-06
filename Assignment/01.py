@@ -1,6 +1,8 @@
-n=int(input())
-print("#"*n)
-x=n-4
-for i in range(x+2):
-  print("#"," "*x,"#")
-print("#"*n)
+def MyCode ():
+    if "Codeing" == "Error":
+        return True
+    elif "Codeing" != "Error":
+        return False
+print("Codeing is Error")
+
+MyCode()
